@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>放松视频空间</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>放松视频空间</h1>
+        <nav class="categories">
+            <button class="category-btn active" data-category="nature">自然风光</button>
+            <button class="category-btn" data-category="meditation">冥想引导</button>
+            <button class="category-btn" data-category="ambient">环境氛围</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-player">
+            <video id="mainVideo" controls loop muted playsinline>
+                您的浏览器不支持 HTML5 视频标签。
+            </video>
+        </section>
+
+        <section class="video-gallery">
+            <!-- 视频缩略图将通过JavaScript动态加载 -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
