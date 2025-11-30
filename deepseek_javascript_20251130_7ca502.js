@@ -2,17 +2,17 @@
 // 视频数据 - 你需要替换为你自己在GitHub Pages上的视频链接
 const videoData = {
     nature: [
-        { src: 'https://yourusername.github.io/repo/videos/forest.mp4', title: '森林', thumbnail: 'thumb-forest.jpg' },
-        { src: 'https://yourusername.github.io/repo/videos/ocean.mp4', title: '海洋', thumbnail: 'thumb-ocean.jpg' }
+        { src: 'https://china-bin06.github.io/my-coze-videos/data/mp4/nature/樱花.mp4', title: '樱花', thumbnail: 'https://china-bin06.github.io/my-coze-videos/data/缩略图/nature/樱花.jpg' },
+        { src: 'https://china-bin06.github.io/my-coze-videos/data/mp4/nature/湖面倒影.mp4', title: '湖面倒影', thumbnail:  'https://china-bin06.github.io/my-coze-videos/data/缩略图/nature/湖面倒影.jpg'  }
     ],
-    meditation: [
-        { src: 'https://yourusername.github.io/repo/videos/breathing.mp4', title: '呼吸练习', thumbnail: 'thumb-breathing.jpg' },
-        { src: 'https://yourusername.github.io/repo/videos/mindfulness.mp4', title: '正念', thumbnail: 'thumb-mindfulness.jpg' }
-    ],
-    ambient: [
-        { src: 'https://yourusername.github.io/repo/videos/rain.mp4', title: '雨声', thumbnail: 'thumb-rain.jpg' },
-        { src: 'https://yourusername.github.io/repo/videos/fireplace.mp4', title: '壁炉', thumbnail: 'thumb-fireplace.jpg' }
-    ]
+    // meditation: [
+    //     { src: 'https://yourusername.github.io/repo/videos/breathing.mp4', title: '呼吸练习', thumbnail: 'thumb-breathing.jpg' },
+    //     { src: 'https://yourusername.github.io/repo/videos/mindfulness.mp4', title: '正念', thumbnail: 'thumb-mindfulness.jpg' }
+    // ],
+    // ambient: [
+    //     { src: 'https://yourusername.github.io/repo/videos/rain.mp4', title: '雨声', thumbnail: 'thumb-rain.jpg' },
+    //     { src: 'https://yourusername.github.io/repo/videos/fireplace.mp4', title: '壁炉', thumbnail: 'thumb-fireplace.jpg' }
+    // ]
 };
 
 // 获取DOM元素
